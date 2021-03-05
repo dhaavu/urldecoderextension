@@ -1,5 +1,6 @@
 function submit(){
  //document.getElementById("result").innerHTML = "hello" ; 
+ document.getElementById("processing").style.display = "flex"; 
  var xhr = new XMLHttpRequest();
 xhr.open("POST", encodeURI('https://urldecode.herokuapp.com/'), true);
 
@@ -10,6 +11,7 @@ xhr.onreadystatechange = function() { // Call a function when the state changes.
     if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
         document.getElementById("result").innerHTML = xhr.responseText ; 
         document.getElementById("result").setAttribute("href", xhr.responseText); 
+        document.getElementById("processing").style.display = "none";
     }
 }
 

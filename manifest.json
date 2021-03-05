@@ -9,5 +9,6 @@
       "default_icon": "icon.png",
       "default_popup": "popup.html"
     },
-    "permissions": ["activeTab", "tabs", "https://urldecode.herokuapp.com/"]
+    "permissions": ["activeTab", "tabs", "https://urldecode.herokuapp.com/"], 
+    "author" : "Dhaval Patel"
   }
