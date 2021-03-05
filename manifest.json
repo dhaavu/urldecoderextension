@@ -2,7 +2,7 @@
     "manifest_version": 2,
   
     "name": "URL decoder",
-    "description": "Decode Short URL from websites like Twitter, Youtube or any bit.ly URLs. Your company may have blocked these short URLS, but now you can get the original URL.",
+    "description": "Decode Short URL from websites like Twitter, Youtube or any bit.ly URLs.",
     "version": "1.0.0",
     "icons": { "128": "icon.png" },
     "browser_action": {
